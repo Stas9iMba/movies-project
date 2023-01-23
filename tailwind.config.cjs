@@ -3,7 +3,11 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     container: {},
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        card: "repeat(auto-fill, minmax(250px, 1fr))",
+      },
+    },
   },
   plugins: [],
 };
