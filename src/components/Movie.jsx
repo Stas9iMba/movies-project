@@ -1,7 +1,6 @@
 import React from "react";
 
 function Movie({ Title, Type, Poster }) {
-  console.log(Title);
   return (
     <div className="grid grid-cols-card gap-2">
       {Poster === "N/A" ? (
