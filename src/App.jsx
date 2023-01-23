@@ -1,7 +1,13 @@
+import Footer from "./layout/Footer";
+import Header from "./layout/Header";
+import Main from "./layout/Main";
+
 function App() {
   return (
-    <div className="container mx-auto px-4">
-      <h1 className="text-3xl font-bold underline">Vite + React</h1>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
