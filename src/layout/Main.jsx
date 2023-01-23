@@ -1,5 +1,6 @@
 import React from "react";
 import Movies from "../components/Movies";
+import Preloader from "../components/Preloader";
 
 function Main() {
   const [movies, setMovies] = React.useState([]);
@@ -11,7 +12,7 @@ function Main() {
 
   return (
     <main className="grow container mx-auto py-12">
-      {movies.length ? <Movies movies={movies} /> : <h3>Loading...</h3>}
+      {movies.length ? <Movies movies={movies} /> : <Preloader />}
     </main>
   );
 }

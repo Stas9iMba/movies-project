@@ -10,7 +10,7 @@ function Movie({ Title, Type, Poster }) {
           alt="Poster"
         />
       ) : (
-        <img className="h-96" src={Poster} alt="Poster" />
+        <img className="h-96 w-64" src={Poster} alt="Poster" />
       )}
       <div className="flex justify-between">
         <h3>{Title}</h3>
