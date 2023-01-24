@@ -35,7 +35,7 @@ function Search({ searchMovies }) {
         </div>
       </div>
       <div className="flex w-72 md:w-80 lg:w-96 mx-auto pt-3 justify-between">
-        <div className="flex items-center mr-4">
+        <div className="radio">
           <input
             id="all-radio"
             type="radio"
@@ -49,7 +49,7 @@ function Search({ searchMovies }) {
             All
           </label>
         </div>
-        <div className="flex items-center mr-4">
+        <div className="radio">
           <input
             id="movies-radio"
             type="radio"
@@ -63,7 +63,7 @@ function Search({ searchMovies }) {
             Movies
           </label>
         </div>
-        <div className="flex items-center mr-4">
+        <div className="radio">
           <input
             id="series-radio"
             type="radio"
